@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+
+.profile-img{
+    height: 150px;
+    border-radius: 70px;
+    margin-top:50px;
+    
+    
+}
+
+.navbar{
+    @apply  py-2 text-xl flex items-center gap-[50px];
+}
+
+@layer components{
+   
+    .active-link {
+        @apply text-amber-300;
+}
+}
+
+
+    .share-tech {
+        font-family: "Share Tech", sans-serif;
+        font-weight: 500;
+        font-style:normal;
+      }
+    
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+      .marquee-container:hover .marquee-content {
+        animation-play-state: paused;
+      }
+      
+       @keyframes marquee {
+          0% { transform: translateX(100%); }
+          100% { transform: translateX(-200%); }
+        }
+      
+        .animate-marquee {
+          animation: marquee 10s linear infinite;
+        }  
