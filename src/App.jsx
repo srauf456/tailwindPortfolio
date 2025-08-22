@@ -5,15 +5,14 @@ import Resume from './pages/Resume'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom'
 import { Navigate } from 'react-router-dom'
-import "./styles.css"
 
-import './App.css'
+
 import Footer from './components/Footer'
 
 function App() {
 
   return (
-    <Router>
+    
      
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +21,6 @@ function App() {
       </Routes>
  
   
-         </Router>
   );
     
   
