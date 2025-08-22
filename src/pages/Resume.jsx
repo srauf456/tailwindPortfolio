@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 export default function Resume() {
+  const currentYear = new Date().getFullYear();
   return (
 <div className="bg-slate-800 min-h-screen flex flex-col">
   
@@ -9,7 +10,7 @@ export default function Resume() {
      <div className="animate-[pulse_1s] w-full flex flex-col lg:flex-row justify-center items-center gap-6 p-6">
      <div className="p-6 border-2 border-amber-200 rounded-md bg-slate-700 text-white w-[500px] lg:w-[350px] xl:w-[400px] max-lg:w-full h-[80vh] max-lg:h-auto flex flex-col items-center justify-center">
       <div className="items-center w-auto justify-center gap-6">  
-      <img className="w-40 h-40 rounded-md justify-center mx-auto" src="./src/assets/images/Screenshot 2024-09-16 133125.png"/>
+      <img className="w-40 h-40 rounded-md justify-center mx-auto" src="/assets/images/Screenshot 2024-09-16 133125.png"/>
        
          
           <div className="share-tech flex gap-8 mt-6 items-center justify-center pb-6 xl:text-xl">
@@ -21,10 +22,10 @@ export default function Resume() {
       <h4 className="text-xl ">Sara Rauf</h4>
       <h3 className="text-xl text-amber-200">Web Developer</h3>
       <div className="m-4 flex gap-3 text-2xl align-middle items-center justify-center text-amber-300">
-        <a href="mailto:sara.abrauf@gmail.com"><img src="./src/assets/envelope.svg" width="30px" height="30px"/></a>
-        <a href="https://github.com/srauf456"><img src="./src/assets/github.svg" width="30px" height="30px"/></a>
-        <a href="https://www.linkedin.com/in/sara-rauf-9120b580/"><img src="./src/assets/linkedin.svg" width="30px" height="30px"/></a>
-        <a href="https://www.upwork.com/freelancers/~01c25a514d4c079a3c"><img src="./src/assets/upwork-svgrepo-com.svg" width="30px" height="30px"/></a>
+        <a href="mailto:sara.abrauf@gmail.com"><img src="/assets/envelope.svg" width="30px" height="30px"/></a>
+        <a href="https://github.com/srauf456"><img src="/assets/github.svg" width="30px" height="30px"/></a>
+        <a href="https://www.linkedin.com/in/sara-rauf-9120b580/"><img src="/assets/linkedin.svg" width="30px" height="30px"/></a>
+        <a href="https://www.upwork.com/freelancers/~01c25a514d4c079a3c"><img src="/assets/upwork-svgrepo-com.svg" width="30px" height="30px"/></a>
     </div>
     </div>
       </div>
@@ -55,16 +56,16 @@ Managed Wordpress website with Elementor & SEO Optimization tools like Mailchimp
  <p className="open-sans-font text-xl font-extrabold">Relevant Skills</p>
 
  <div className="marquee-content flex animate-marquee">
-     <img src="./src/assets/icons8-html5.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-css3.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-javascript.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-bootstrap.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-tailwind-css.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-react-native.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-node-js.svg" width="100px" height="100px"/>
-     <img src="./src/assets/icons8-postgres.svg" width="100px" height="100px"/>
-       <img src="./src/assets/icons8-my-sql.svg" width="100px" height="100px"/>
-       <img src="./src/assets/icons8-sql-server.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-html5.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-css3.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-javascript.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-bootstrap.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-tailwind-css.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-react-native.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-node-js.svg" width="100px" height="100px"/>
+     <img src="../assets/icons8-postgres.svg" width="100px" height="100px"/>
+       <img src="../assets/icons8-my-sql.svg" width="100px" height="100px"/>
+       <img src="../assets/icons8-sql-server.svg" width="100px" height="100px"/>
        </div>
         <p className="open-sans-font font-extrabold text-xl"> Education</p>
        <p className="open-sans-font"> National University of Computer Emerging Sciences (FAST Karachi) | Bachelor of Science in Computer Science 2010-2014 | CGPA: 3.1
@@ -80,11 +81,9 @@ Managed Wordpress website with Elementor & SEO Optimization tools like Mailchimp
       </div>  
     </main>
     <div className="flex justify-end align-bottom  text-white">
-    <footer>© <span id="myDate"></span>. All Rights Reserved.</footer>
+    <footer>© {currentYear} All Rights Reserved.</footer>
   </div>  
-    <script>
-      {document.getElementById("myDate").textContent = new Date().getFullYear()}
-   </script>
+   
 
  </div>
   );

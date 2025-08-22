@@ -1,6 +1,8 @@
 import {Link} from 'react-router-dom';
-import profile from '../assets/images/Screenshot 2024-09-16 133125.png';
+import profile from '/assets/images/Screenshot 2024-09-16 133125.png';
+
 export default function Home() {
+    const currentYear = new Date().getFullYear();
   return (
     
     <div className="bg-slate-800 min-h-screen flex flex-col">
@@ -20,10 +22,10 @@ export default function Home() {
       <h4 className="text-xl ">Sara Rauf</h4>
       <h3 className="text-xl text-amber-200">Web Developer</h3>
       <div className="m-4 flex gap-3 text-2xl align-middle items-center justify-center text-amber-300">
-        <a href="mailto:sara.abrauf@gmail.com"><img src="./src/assets/envelope.svg" width="30px" height="30px"/></a>
-        <a href="https://github.com/srauf456"><img src="./src/assets/github.svg" width="30px" height="30px"/></a>
-        <a href="https://www.linkedin.com/in/sara-rauf-9120b580/"><img src="./src/assets/linkedin.svg" width="30px" height="30px"/></a>
-        <a href="https://www.upwork.com/freelancers/~01c25a514d4c079a3c"><img src="./src/assets/upwork-svgrepo-com.svg" width="30px" height="30px"/></a>
+        <a href="mailto:sara.abrauf@gmail.com"><img src="/assets/envelope.svg" width="30px" height="30px"/></a>
+        <a href="https://github.com/srauf456"><img src="/assets/github.svg" width="30px" height="30px"/></a>
+        <a href="https://www.linkedin.com/in/sara-rauf-9120b580/"><img src="/assets/linkedin.svg" width="30px" height="30px"/></a>
+        <a href="https://www.upwork.com/freelancers/~01c25a514d4c079a3c"><img src="/assets/upwork-svgrepo-com.svg" width="30px" height="30px"/></a>
     </div>
     </div>
       </div>
@@ -55,11 +57,8 @@ export default function Home() {
       </div>
       </main>  
       <div className="flex justify-end align-bottom  text-white">
-      <footer>© <span id="myDate"></span> All Rights Reserved.</footer>
+      <footer>© {currentYear} All Rights Reserved.</footer>
     </div>  
-      <script>
-       {new Date().getFullYear()}
-     </script>
   
 
       </div>
