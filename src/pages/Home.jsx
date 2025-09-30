@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import profile from '/assets/images/Screenshot 2024-09-16 133125.png';
+// import profile from '/assets/images/Screenshot 2024-09-16 133125.png';
 
 export default function Home() {
     const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ export default function Home() {
              <div className="animate-[pulse_1s] w-full flex flex-col lg:flex-row justify-center items-center gap-6 p-6">
      <div className="p-6 border-2 border-amber-200 rounded-md bg-slate-700 text-white w-[500px] lg:w-[350px] xl:w-[400px] max-lg:w-full h-[80vh] max-lg:h-auto flex flex-col items-center justify-center">
       <div className="items-center w-auto justify-center gap-6">  
-        <img className="w-40 h-40 rounded-md justify-center mx-auto" src={profile} />
+        {/* <img className="w-40 h-40 rounded-md justify-center mx-auto" src={profile} /> */}
        
   <div className="share-tech flex gap-8 mt-6 items-center justify-center pb-6 xl:text-xl">
             {/* <a className="active-link" href="./">ABOUT</a><a className="hover:text-slate-900" href="./resume">RESUME</a><a className="hover:text-slate-900" href="./projects">PROJECTS</a> */}

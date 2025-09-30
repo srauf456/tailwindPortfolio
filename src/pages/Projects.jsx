@@ -12,7 +12,7 @@ export default function Projects() {
      <div className="animate-[pulse_1s] w-full flex flex-col lg:flex-row justify-center items-center gap-6 p-6">
      <div className="p-6 border-2 border-amber-200 rounded-md bg-slate-700 text-white w-[500px] lg:w-[350px] xl:w-[400px] max-lg:w-full h-[80vh] max-lg:h-auto flex flex-col items-center justify-center">
       <div className="items-center w-auto justify-center gap-6">  
-      <img className="w-40 h-40 rounded-md justify-center mx-auto" src="../assets/images/Screenshot 2024-09-16 133125.png"/>
+      {/* <img className="w-40 h-40 rounded-md justify-center mx-auto" src="../assets/images/Screenshot 2024-09-16 133125.png"/> */}
        
           
           <div className="share-tech flex gap-8 mt-6 items-center justify-center pb-6 xl:text-xl">
@@ -35,14 +35,30 @@ export default function Projects() {
        
           <div className="border-2 border-slate-600 rounded-md lg:ml-3 overflow-auto p-6 bg-slate-700 text-white w-[550px] lg:w-[600px] xl:w-[800px] max-lg:w-full h-[80vh] max-lg:h-auto flex flex-col">
    <h2 className="text-2xl text-left underline underline-offset-8 decoration-amber-300 share tech p-2">PROJECTS</h2>
+   <div className='sm:flex-1 gap-3 md:flex-1 p-3'>
+     <div className="m-2 rounded-md border-2 bg-amber-50 ">
+     <img src="../assets/images/DashboardLanding.png"/>
+      <p className="text-zinc-950">R.A.D - React Admin Dashboard | React, Charts.js, Tailwind | A responsive dashboard that integrates Firebase Auth for Google sign-in, uses Context API for theme and language toggle and implements RBAC to dynamically render UI elements. I also integrated Chart.js to create interactive data visualizations and built a Users table with search, filters, and CRUD operations. <a className='text-amber-300 font-semibold' href="https://rad-8kizq2axp-sara-rs-projects.vercel.app/">View Live Demo</a> </p>
+   </div>
+   </div>
    <div className="sm:flex gap-3 p-3 md:flex-1/2">
       <div className="m-2 rounded-md border-2 bg-amber-50 ">
-        <img src="../assets/images/DashboardLanding.png"/>
-      <p className="text-zinc-950">Dashboard | React, Charts.js | A responsive dashboard built with React and Tailwind CSS. Includes Context API, Firebase Auth.</p>
+        <img src="../assets/images/TastyKitchenDesktop.png"/>
+      <p className="text-zinc-950">Tasty Kitchen Landing Page | React, React Router, Tailwind CSS | A responsive restaurant landing page. <a className='text-amber-300 font-semibold' href="https://tasty-kitchen-recipe-app.vercel.app/">View Live Demo</a></p>
+    </div>
+        <div className="m-2 rounded-md border-2 bg-amber-50 ">
+          <img src="../assets/images/Screenshot 2025-09-27 133844.png"/>
+          <p class="text-zinc-950">Weather Now App | React, TailwindCSS | A weather app built with React that allows to search for weather information by location. Users can choose from additional weather metrics and can browse a weekly weather forecast.</p>
+        </div> 
+        </div>  
+   <div className="sm:flex gap-3 p-3 md:flex-1/2">
+      <div className="m-2 rounded-md border-2 bg-amber-50 ">
+        <img src="../assets/images/tastykitchenpage1.png"/>
+      <p className="text-zinc-950">Tasty Kitchen Restaurant | React, React Router, Tailwind CSS | A responsive restaurant app that allows recipe search. Features Framer Motion for each recipe card. <a className='text-amber-300 font-semibold' href="https://tasty-kitchen-recipe-app.vercel.app/">View Live Demo</a></p>
     </div>
         <div className="m-2 rounded-md border-2 bg-amber-50 ">
           <img src="../assets/images/RecipeLanding.png"/>
-          <p class="text-zinc-950">Tasty Treats | React | A recipe app built with React that allows users to search for their favorite recipes.</p>
+          <p class="text-zinc-950">Tasty Treats App | React, TailwindCSS | A recipe app built with React that allows users to search for their favorite recipes.</p>
         </div> 
         </div>  
    <div className="sm:flex gap-3 p-3 md:flex-1/2">
