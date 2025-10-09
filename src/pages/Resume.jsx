@@ -35,8 +35,8 @@ export default function Resume() {
    <h2 className="text-2xl text-left underline underline-offset-8 decoration-amber-300 share tech p-2">RESUME</h2>
 
       <p className="open-sans-font font-extrabold text-xl"> Professional Experience</p>
-      <p className="open-sans-font"> Dec 2021 – Present | Web Developer & Technical Support at Katherine Walk Inc <br/>
-        Provides technical support, design and developing website with Shopify </p> <br/>
+      <p className="open-sans-font"> Dec 2021 – 2024 | Web Developer & Technical Support at Katherine Walk Inc <br/>
+        Provided technical support, design and development of website with Shopify and increased online presence by constantly updating themes.</p> <br/>
       
 
 <p className="open-sans-font">  Sep 2021 – Dec 2023 |	   Upwork Freelancer Web Developer/Web Design for beamset.org <br/>
@@ -44,7 +44,7 @@ export default function Resume() {
 </p><br/>
 <p className="open-sans-font">Mar 2021 – Sep 2021 |    Web Design Volunteer at Educate.Radiate.Elevate NGO <br/>
 
-Managed Wordpress website with Elementor & SEO Optimization tools like Mailchimp & Zapier
+Managed Wordpress website with Elementor & SEO Optimization tools like Mailchimp & Zapier. Helped with increased donations by updating Donate page.
 </p> <br/>
 <p className="open-sans-font"> Mar 2020 | Intern Web Developer and Designer at Katherine Walk Inc <br/>
 
