@@ -20,7 +20,7 @@ export default function Home() {
       </div> 
       <div className="text-center share-tech">
       <h4 className="text-xl ">Sara Rauf</h4>
-      <h3 className="text-xl text-amber-200">Web Developer</h3>
+      <h3 className="text-xl text-amber-200">Frontend Developer</h3>
       <div className="m-4 flex gap-3 text-2xl align-middle items-center justify-center text-amber-300">
         <a href="mailto:sara.abrauf@gmail.com"><img src="/assets/envelope.svg" width="30px" height="30px"/></a>
         <a href="https://github.com/srauf456"><img src="/assets/github.svg" width="30px" height="30px"/></a>
@@ -35,14 +35,15 @@ export default function Home() {
    <p className="share-tech text-2xl text-left underline underline-offset-8 decoration-amber-300 p-2">ABOUT ME</p>
    <div className="text-mditems-center text-left open-sans-font">
    <p>
-      I’m a Web Developer with a Bachelor's degree in Computer Science. I have hands-on experience in building dynamic and responsive
-       desktop and mobile user-friendly web applications. I want to contribute my skills in web development using React, JS, Tailwind and modern UI frameworks. 
+      I’m a Frontend Developer with a Bachelor's degree in Computer Science. I have over 3 years of hands-on experience in building dynamic and responsive
+       desktop and mobile user-friendly web applications. I want to contribute my skills in web development using React, JS, Tailwind, TypeScript, Next.js and other modern UI frameworks. 
        <br/><br/>
      
-       Previously, I have worked on various real-world CMS based projects for 2+ years that included helping a startup set up their e-Commerce website and optimizing their online presence.
-       Recently, I completed a Full-Stack Development course recently on Udemy, where I built multiple hands-on projects like
+       Recently, I built a production-ready dashboard with authentication, role-based access and data visualization, Chart.js, REST APIs. 
+I have also worked with clients on CMS platforms like Shopify and WordPress that included launching e-commerce websites,and optimizing online presence, theme customization with Liquid, and plugin integrations.
+       Recently, I completed a Full-Stack Development Bootcamp where I built multiple hands-on projects like
         A To-Do App for task management, A Weather App integrating APIs and A Blog Platform with dynamic content. <br/>
-        With some of my backend knowledge of .NET, NodeJS, Express, SQL and a background in CMS systems like WordPress and Shopify, I bring a well-rounded understanding of web technologies. 
+        With some of my backend knowledge of .NET, NodeJS, Express, SQL and a background in CMS systems, I bring a well-rounded understanding of web technologies. 
         <br/>
         creating scalable front-end solutions.  
        </p>
