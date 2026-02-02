@@ -38,13 +38,13 @@ export default function Projects() {
    <div className='sm:flex-1 gap-3 md:flex-1 p-3'>
      <div className="m-2 rounded-md border-2 bg-amber-50 ">
      <img src="../assets/images/DashboardLanding.png"/>
-      <p className="text-zinc-950">R.A.D - React Admin Dashboard | React, Charts.js, Tailwind | A responsive dashboard that integrates Firebase Auth for Google sign-in, uses Context API for theme and language toggle and implements RBAC to dynamically render UI elements. I also integrated Chart.js to create interactive data visualizations and built a Users table with search, filters, and CRUD operations. <a className='text-amber-300 font-semibold' href="https://rad-8kizq2axp-sara-rs-projects.vercel.app/">View Live Demo</a> </p>
+      <p className="text-zinc-950">R.A.D - React Admin Dashboard | React, Charts.js, Tailwind | A responsive dashboard that integrates Firebase Auth for Google sign-in, uses Context API for theme and language toggle and implements RBAC to dynamically render UI elements. I also integrated Chart.js to create interactive data visualizations and built a Users table with search, filters, and CRUD operations. <a className='text-amber-300 font-semibold' href="https://rad-kappa-eight.vercel.app/">View Live Demo</a> </p>
    </div>
    </div>
    <div className="sm:flex gap-3 p-3 md:flex-1/2">
       <div className="m-2 rounded-md border-2 bg-amber-50 ">
         <img src="../assets/images/TastyKitchenDesktop.png"/>
-      <p className="text-zinc-950">Tasty Kitchen Landing Page | React, React Router, Tailwind CSS | A responsive restaurant landing page. <a className='text-amber-300 font-semibold' href="https://tasty-kitchen-recipe-app.vercel.app/">View Live Demo</a></p>
+      <p className="text-zinc-950">Tasty Kitchen Landing Page | React, React Router, Tailwind CSS | A responsive restaurant landing page. <a className='text-amber-300 font-semibold' href="https://tasty-kitchen-xi.vercel.app/">View Live Demo</a></p>
     </div>
         <div className="m-2 rounded-md border-2 bg-amber-50 ">
           <img src="../assets/images/Screenshot 2025-09-27 133844.png"/>

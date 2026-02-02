@@ -36,7 +36,7 @@ export default function Home() {
    <div className="text-mditems-center text-left open-sans-font">
    <p>
       I’m a Web Developer with a Bachelor's degree in Computer Science. I have hands-on experience in building dynamic and responsive
-       desktop and mobile user-friendly web applications. I want to contribute my skills in Front-end development using React, JS, Tailwind and modern UI frameworks. 
+       desktop and mobile user-friendly web applications. I want to contribute my skills in web development using React, JS, Tailwind and modern UI frameworks. 
        <br/><br/>
      
        Previously, I have worked on various real-world CMS based projects for 2+ years that included helping a startup set up their e-Commerce website and optimizing their online presence.
