@@ -35,22 +35,31 @@ export default function Home() {
    <p className="share-tech text-2xl text-left underline underline-offset-8 decoration-amber-300 p-2">ABOUT ME</p>
    <div className="text-mditems-center text-left open-sans-font">
    <p>
-      I’m a Frontend Developer with a Bachelor's degree in Computer Science. I have over 3 years of hands-on experience in building dynamic and responsive
-       desktop and mobile user-friendly web applications. I want to contribute my skills in web development using React, JS, Tailwind, TypeScript, Next.js and other modern UI frameworks. 
-       <br/><br/>
-     
-       Recently, I built a production-ready dashboard with authentication, role-based access and data visualization, Chart.js, REST APIs. 
-I have also worked with clients on CMS platforms like Shopify and WordPress that included launching e-commerce websites,and optimizing online presence, theme customization with Liquid, and plugin integrations.
-       Recently, I completed a Full-Stack Development Bootcamp where I built multiple hands-on projects like
-        A To-Do App for task management, A Weather App integrating APIs and A Blog Platform with dynamic content. <br/>
-        With some of my backend knowledge of .NET, NodeJS, Express, SQL and a background in CMS systems, I bring a well-rounded understanding of web technologies. 
+      I'm Sara and my path into software engineering has been very hands-on. After graduating with a Bachelor's 
+      degree in Computer Science, I  worked on my first Task Management web application in C#. Moving into web development further, I
+      interned for a startup and launched their website on WordPress. I took on some freelance work and eventually did Shopify
+      development for the same organization. Those experiences gave me an early understanding of what it means to build 
+      software for users and respond to requirements. 
+    <br/><br/>   
+    I deepened my technical foundation through structured web development training and have continued building increasingly
+     sophisticated applications with
+     React, Next.js, TypeScript, Tailwind, and Supabase.
+       
+     My current project, <b>Opsyra</b>, is an AI-powered project management application where I'm working with authentication, database design,
+      Row Level Security, Server Actions, and Gemini Flash while also exploring specification-driven AI-assisted development workflow.
+       I also have experience building dashboards with authentication, role-based access and data visualization using Chart.js.
         <br/>
-        creating scalable front-end solutions.  
+        With some of my backend knowledge of .NET, NodeJS, Express, SQL, background in CMS systems, and frontend skills in React, TypeScript,
+         I bring a well-rounded understanding of web technologies
+        creating scalable solutions.  
        </p>
 
 <br/>
-<p>With time, my passion and focus have steered towards Front-end Development and the beautiful, seemless user experiences it can create. I’m actively seeking freelance projects and front-end development roles, where I can apply my skills to build impactful, high performance products
-   while leveraging my knowledge of e-commerce platforms and modern web technologies. Let's connect!
+<p>One of the biggest areas of growth for me has been moving from simply making an application work toward
+   thinking more deliberately about architecture, design, development workflow, and how AI can accelerate implementation
+    without replacing engineering judgment.
+  I'm looking for a remote frontend, web, or software engineering opportunity where I can bring that hands-on experience, strong learning velocity, and growing engineering discipline to a team and continue building software that creates real value.
+Let's connect!
 </p>
       
     </div> 
@@ -58,7 +67,7 @@ I have also worked with clients on CMS platforms like Shopify and WordPress that
       </div>
       </main>  
       <div className="flex justify-end align-bottom  text-white">
-      <footer>© {currentYear} All Rights Reserved.</footer>
+      <footer>© {currentYear} Sara Rauf. All Rights Reserved.</footer>
     </div>  
   
 
