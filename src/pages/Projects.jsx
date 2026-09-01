@@ -35,6 +35,12 @@ export default function Projects() {
        
           <div className="border-2 border-slate-600 rounded-md lg:ml-3 overflow-auto p-6 bg-slate-700 text-white w-[550px] lg:w-[600px] xl:w-[800px] max-lg:w-full h-[80vh] max-lg:h-auto flex flex-col">
    <h2 className="text-2xl text-left underline underline-offset-8 decoration-amber-300 share tech p-2">PROJECTS</h2>
+    <div className='sm:flex-1 gap-3 md:flex-1 p-3'>
+     <div className="m-2 rounded-md border-2 bg-amber-50 ">
+     <img src="../assets/images/OpsyraDashboard.png"/>
+      <p className="text-zinc-950">Opsyra | Next.js 16, React, TypeScript, Supabase, Google Gemini 2.0 Flash, Tailwind CSS | An AI-powered project management tool that helps manage unstructured work in one workspace using AI features. I used Next.js Server Actions and Supabase for backend with Supabase Auth and RLS. <a className='text-amber-300 font-semibold' href="https://rad-kappa-eight.vercel.app/">View Live Demo</a> </p>
+   </div>
+   </div>
    <div className='sm:flex-1 gap-3 md:flex-1 p-3'>
      <div className="m-2 rounded-md border-2 bg-amber-50 ">
      <img src="../assets/images/DashboardLanding.png"/>
